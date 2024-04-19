@@ -78,6 +78,8 @@ footer .brand img {
 .container {
     margin-top: 50px;
     padding: 10px;
+    overflow-x: auto;
+    word-wrap: break-word;
 }
 
 .section {
@@ -88,6 +90,8 @@ footer .brand img {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+    overflow-x: auto;
+    word-wrap: break-word;
 }
 
 h1 {
