@@ -25,6 +25,7 @@ header {
     background-image: url(https://homework.study.com/images/eureka/logos/study-com_logo-horizontal_text-dark.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     display: inline-block;
     height: 30px;
     padding: 12px;
