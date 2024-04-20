@@ -77,31 +77,18 @@ footer .brand img {
 }
 
 .container {
-    width: 100%; /* Ensure the container takes up the full width */
-    padding: 10px; /* Padding for inner spacing */
+    margin-top: 50px;
+    padding: 10px;
 }
 
 .section {
     display: block;
-    max-width: 913px;
+    max-width: 913.33px;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
-    overflow-wrap: break-word; /* Wrap overflow text */
-    word-wrap: break-word; /* Legacy support for wrapping */
-}
-
-p, h1, h2, h3 {
-    hyphens: auto; /* Automatically add hyphens when breaking words */
-    word-break: break-word; /* Ensure words can be broken at the end of the line */
-}
-
-/* Specific adjustments for MathJax */
-.MathJax {
-    text-align: left; /* Align MathJax content to the left */
-    overflow-x: auto; /* Allow horizontal scrolling on small devices */
 }
 
 h1 {
