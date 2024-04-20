@@ -90,6 +90,7 @@ footer .brand img {
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
     overflow-x: auto; /* Allows horizontal scrolling */
+    word-wrap: break-word;
 }
 
 /* Ensure MathJax fits within the section */
