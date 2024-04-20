@@ -161,6 +161,19 @@ table.wikitable>tbody>tr:nth-child(odd) {
     background-color: #eee
 }
 
+.mjx-chtml {
+   font-size: ${IS_MOBILE ? '100%' : '120%'} !important;
+}
+.mjx-table {
+   white-space: pre-line !important;
+}
+.mjx-table .mjx-char {
+   white-space: ${IS_MOBILE ? 'pre-line' : 'inherit'} !important;
+}
+.mjx-full-width {
+   width: 0em !important;
+}
+    
 /* Responsive */
 @media (max-width: 576px) {
     header {
