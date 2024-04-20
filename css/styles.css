@@ -77,18 +77,28 @@ footer .brand img {
 }
 
 .container {
-    margin-top: 50px;
-    padding: 10px;
+    width: 100%; /* Ensure the container takes up the full width */
+    padding: 10px; /* Padding for inner spacing */
+    overflow-wrap: break-word; /* Ensure words can break and wrap to the next line */
+    word-wrap: break-word; /* Legacy support for wrapping */
+    word-break: break-word; /* Break the word at the edge of the container */
 }
 
 .section {
     display: block;
-    max-width: 913.33px;
+    max-width: 100%; /* Limit the width to prevent overflow */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    /*max-width: 913.33px;*/
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+}
+
+p, h1, h2, h3 {
+    hyphens: auto; /* Automatically add hyphens when breaking words */
+    word-break: break-word; /* Ensure words can be broken at the end of the line */
 }
 
 h1 {
