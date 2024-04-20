@@ -77,25 +77,25 @@ footer .brand img {
 }
 
 .container {
-    width: 100%; /* Ensure the container takes up the full width of the viewport */
-    padding: 10px; /* Consistent padding */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    width: 100%; /* Ensure the container takes up the full width */
+    padding: 10px; /* Padding for inner spacing */
 }
 
 .section {
-    max-width: 913.33px; /* Fixed maximum width as per theme requirements */
-    margin: 0 auto; /* Center align the section for better aesthetics */
-    padding: 20px; /* Padding to prevent text from touching the edges */
-    background-color: #fff; /* Background color for readability */
-    border-radius: 4px; /* Rounded corners for aesthetics */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.125); /* Shadow for depth */
+    display: block;
+    max-width: 913px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
     overflow-wrap: break-word; /* Wrap overflow text */
     word-wrap: break-word; /* Legacy support for wrapping */
 }
 
 p, h1, h2, h3 {
-    hyphens: auto; /* Enable automatic hyphenation */
-    word-break: break-word; /* Break words at the end of the line */
+    hyphens: auto; /* Automatically add hyphens when breaking words */
+    word-break: break-word; /* Ensure words can be broken at the end of the line */
 }
 
 /* Specific adjustments for MathJax */
