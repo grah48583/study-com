@@ -78,8 +78,6 @@ footer .brand img {
 .container {
     margin-top: 50px;
     padding: 10px;
-    overflow-x: auto;
-    word-wrap: break-word;
 }
 
 .section {
@@ -90,8 +88,6 @@ footer .brand img {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
-    overflow-x: auto;
-    word-wrap: break-word;
 }
 
 h1 {
@@ -134,7 +130,7 @@ h3 {
 }
 
 .imageplugin {
-    margin: 10px 0;
+    margin: 10px 0; 
 }
 
 p {
@@ -150,6 +146,7 @@ table {
     margin-bottom: 20px;
     border-collapse: collapse;
 }
+
 
 table td,
 table th {
@@ -180,7 +177,10 @@ table.wikitable>tbody>tr:nth-child(odd) {
         font-size: x-large;
         line-height: 1;
     }
-    h2, h3 {
+    h2 {
+        font-size: small;
+    }
+    h3 {
         font-size: smaller;
     }
 }
