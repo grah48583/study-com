@@ -93,29 +93,21 @@ footer .brand img {
     overflow-x: auto;
 }
 
-/* For Webkit browsers */
-.section::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent; /* Makes the track invisible */
 }
 
-.section::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color of the scrollbar track */
+/* This styles the draggable scrolling handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
-.section::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar thumb */
-    border-radius: 6px; /* Roundness of the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.3);
 }
 
-.section::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the scrollbar thumb on hover */
-}
-
-/* For Firefox */
-.section {
-    scrollbar-width: thin; /* 'auto' or 'thin' */
-    scrollbar-color: #888 #f1f1f1; /* Thumb and track color */
-}
 
 h1 {
     margin: 0;
