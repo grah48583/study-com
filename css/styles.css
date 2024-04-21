@@ -91,8 +91,7 @@ footer .brand img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
     word-wrap: break-word; /* Add this to break long words */
     overflow-wrap: break-word; /* Alternative name for word-wrap */
-    overflow: hidden; /* You can use 'auto' instead if you want scrollbars when content overflows */
-    text-overflow: ellipsis; /* Use this to show '...' when text overflows and is clipped */
+    overflow: auto; /* You can use 'auto' instead if you want scrollbars when content overflows */
 }
 
 h1 {
