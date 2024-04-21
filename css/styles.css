@@ -89,15 +89,6 @@ footer .brand img {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
-    overflow-x: auto; /* Allows horizontal scrolling */
-    word-wrap: break-word;
-}
-
-/* Ensure MathJax fits within the section */
-.mjx-chtml {
-    max-width: 100%; /* Max width is 100% of its parent container */
-    overflow-x: auto; /* Allows scrolling on small devices */
-    word-wrap: break-word; /* Ensures words can be broken at the end of the line */
 }
 
 h1 {
@@ -170,19 +161,6 @@ table.wikitable>tbody>tr:nth-child(odd) {
     background-color: #eee
 }
 
-.mjx-chtml {
-   font-size: ${IS_MOBILE ? '100%' : '120%'} !important;
-}
-.mjx-table {
-   white-space: pre-line !important;
-}
-.mjx-table .mjx-char {
-   white-space: ${IS_MOBILE ? 'pre-line' : 'inherit'} !important;
-}
-.mjx-full-width {
-   width: 0em !important;
-}
-    
 /* Responsive */
 @media (max-width: 576px) {
     header {
@@ -207,8 +185,5 @@ table.wikitable>tbody>tr:nth-child(odd) {
     }
     h3 {
         font-size: smaller;
-    }
-    .mjx-chtml {
-        font-size: 80%; /* Smaller font size on smaller screens */
     }
 }
