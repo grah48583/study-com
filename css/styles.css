@@ -93,19 +93,13 @@ footer .brand img {
     overflow-x: auto;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-    background: transparent; /* Makes the track invisible */
+.section::-webkit-scrollbar {
+    height: 12px;
 }
 
-/* This styles the draggable scrolling handle */
-::-webkit-scrollbar-thumb {
-    background: rgba(0,0,0,0.2);
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(0,0,0,0.3);
+.section::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 6px;
 }
 
 
