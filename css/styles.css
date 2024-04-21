@@ -95,11 +95,17 @@ footer .brand img {
 
 .section::-webkit-scrollbar {
     height: 12px;
+    width: 10px;
+    background: transparent; /* Makes the track invisible */
 }
 
-.section::-webkit-scrollbar-track {
+.section::-webkit-scrollbar-thumb {
     background: #eee;
     border-radius: 6px;
+}
+
+.section::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.3);
 }
 
 
