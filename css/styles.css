@@ -82,16 +82,15 @@ footer .brand img {
 }
 
 .section {
-    display: block;
+/*     display: block; */
     max-width: 913.33px;
     margin: 30px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
-    word-wrap: break-word; /* Add this to break long words */
-    overflow-wrap: break-word; /* Alternative name for word-wrap */
-    overflow: auto; /* You can use 'auto' instead if you want scrollbars when content overflows */
+    overflow: hidden;
+    overflow-x: auto;
 }
 
 h1 {
